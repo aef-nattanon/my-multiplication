@@ -1,6 +1,6 @@
 {
   "name": "my-multiplication",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "aeflanta <aef.nattanon@gmail.com> (https://github.com/aef-nattanon/multiplication-js)",
   "homepage": "https://github.com/aef-nattanon/my-multiplication",
@@ -12,6 +12,7 @@
   ],
   "type": "module",
   "scripts": {
+    "build:types": "tsc -p ./tsconfig.json --outDir build --declaration true && api-extractor run",
     "docs": "typedoc src --out docs",
     "start": "tsc && node index.js",
     "dev": "rollup -c -w",
@@ -30,6 +31,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "@microsoft/api-extractor": "^7.18.16",
     "typedoc": "^0.22.5"
   }
 }
