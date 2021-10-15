@@ -1,8 +1,8 @@
 {
   "name": "my-multiplication",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "",
-  "author": "aeflanta <aef.nattanon@gmail.com> (https://github.com/aef-nattanon/multiplication-js)",
+  "author": "aef-nattanon <aef.nattanon@gmail.com> (https://github.com/aef-nattanon/my-multiplication)",
   "homepage": "https://github.com/aef-nattanon/my-multiplication",
   "main": "dist/my-multiplication.cjs.js",
   "module": "dist/my-multiplication.esm.js",
